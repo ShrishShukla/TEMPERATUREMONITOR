@@ -11,10 +11,10 @@ float temperatureC=0.0;
 float temperatureF=0.0;
 //char server[] = "192.168.43.86";
 int port = 80;
-//const char* ssid = "RedmiY2";                       //   SSID of the wifi network you want to connect to
-const char* ssid = "AndroidAP48E0"; 
-//const char* pass = "0C505FB6";                       // password of the wifi network
-const char* pass = "tejn1097";
+//const char* ssid = "Red***iY2";                       //   SSID of the wifi network you want to connect to
+const char* ssid = "****"; 
+//const char* pass = "0****B6";                       // password of the wifi network
+const char* pass = "t8*****7";
 unsigned long lastConnectionTime = 0;
 const unsigned long postingInterval = 10L*1000L;
 WiFiClient client;
