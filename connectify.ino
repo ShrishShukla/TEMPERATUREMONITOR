@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "AndroidAP48E0"; //giving hotspot credentials
-const char* pass = "tejn1097";
+const char* ssid = "*******"; //giving hotspot credentials
+const char* pass = "******";
 
-//const char* ssid = "RedmiY2";
-//const char* pass = "0C505FB6"; 
+//const char* ssid = "Re****2";
+//const char* pass = "0C*****B6"; 
 
 WiFiClient client; //creating an instance
 //int status = WL_IDLE_STATUS;
