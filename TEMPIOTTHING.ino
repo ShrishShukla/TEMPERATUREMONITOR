@@ -2,15 +2,15 @@
 #include <ESP8266WiFi.h>
 const int LM35 = A0;
 //----------- Enter you Wi-Fi Details---------//
-char ssid[] = "AndroidAP48E0"; //SSID
-char pass[] = "tejn1097"; // Password
+char ssid[] = "*****"; //SSID
+char pass[] = "****"; // Password
 //-------------------------------------------//
 
 WiFiClient  client;
 
 unsigned long myChannelNumber = 000000; // Channel ID here
 const int FieldNumber = 1;
-const char * myWriteAPIKey = "2U4Z369OTN049AVY"; // Your Write API Key here
+const char * myWriteAPIKey = "2U4Z369******Y"; // Your Write API Key here
 
 void setup()
 {
