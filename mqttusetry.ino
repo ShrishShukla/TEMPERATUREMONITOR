@@ -1,13 +1,13 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
  
-const char* ssid = "AndroidAP48E0";
-const char* password = "tejn1097";
+const char* ssid = "An*****E0";
+const char* password = "*****7";
 
 const char* mqttServer = "tailor.cloudmqtt.com";
 const int mqttPort = 17882;
-const char* mqttUser = "cevfewuh";
-const char* mqttPassword = "SKaSfRVXgNN4";
+const char* mqttUser = "c******";
+const char* mqttPassword = "S*******N4";
  
 WiFiClient espClient;
 PubSubClient client(espClient);
