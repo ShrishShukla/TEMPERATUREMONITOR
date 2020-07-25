@@ -9,7 +9,7 @@
 int TEMP_SENSOR_PIN = A0;
 float temperatureC=0.0;
 float temperatureF=0.0;
-//char server[] = "192.168.43.86";
+//char server[] = "192.xzx.yy.86";
 int port = 80;
 //const char* ssid = "Red***iY2";                       //   SSID of the wifi network you want to connect to
 const char* ssid = "****"; 
@@ -34,7 +34,7 @@ void readSensorData(){
 }void transmitSensorData(){
   Serial.println("xxxxxxxxxxxxxx");
   String requestData="?temperature="+String(temperatureF);
-  String Link="http://192.168.43.86/tempmonitor/add.php" + requestData;
+  String Link="http://192.zxx.yy.86/tempmonitor/add.php" + requestData;
   http.begin(Link);
   int httpCode = http.GET();
   String payL = http.getString();
